@@ -46,8 +46,5 @@ int main(){
 
     cout << "Total count: " << pay << endl;
 
-
-    
-
     return 0;
 }
