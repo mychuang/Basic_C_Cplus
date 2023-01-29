@@ -6,6 +6,8 @@
 
 - ch03: 運算子 (if-else; switch)
 
+- ch04: 流程控制 (if-else; switch)
+
 # 編譯器
 
 - c
