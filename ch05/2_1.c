@@ -1,8 +1,9 @@
 /*
 跳出本次迴圈：continue
-  while (判斷式):
-      # 執行程式
-      continue
+  while (判斷式){
+    # 執行程式
+    continue;
+  }
 */
 
 #include <stdio.h>

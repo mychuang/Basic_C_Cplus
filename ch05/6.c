@@ -8,24 +8,24 @@ for (起始式; 判斷式; 運算式) {
 */
 
 #include <stdio.h>
-
 int main(){    
     
-    for(int i=0; i<5; i++){
+    //顯示 1 - 10
+    int a = 0;
+
+    while(a < 10){
+        a = a + 1;
+        printf("a = %d \n", a);
+    }
+    
+    for(int i=1; i<=10; i++){
         printf("i = %d \n", i);
-    };
+    }
 
     /*連續印出字串*/
     for(int i=0; i<5; i++){
         printf("Loop is fun! \n", i);
     };
-
-    /*試寫出一個程式, 計算 1 + 2 + ... + 10 的結果*/
-    int total = 0;
-    for(int i=1; i<11; i++){
-        total = total + i;
-    }
-    printf("total = %d \n", total);
 
     return 0;
 }

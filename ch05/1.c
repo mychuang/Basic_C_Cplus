@@ -21,6 +21,8 @@ int main(){
     }
 
     //補充: 程式中, 1為真, 0為假, 可簡寫如下
+    a = 0;
+    status = 1;
     while(status){
         a = a + 1;
         printf("a = %d \n", a);

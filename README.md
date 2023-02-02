@@ -4,16 +4,37 @@
 
 - ch02: 變數宣告(整數, 浮點數, 字串)
 
-- ch03: 運算子 (if-else; switch)
+- ch03: 運算子
 
 - ch04: 流程控制 (if-else; switch)
+
+  1. if
+  2. if-else
+  3. if-else if-else
+  4. 巢狀 if
+  5. switch case
+  6. 專案研討: 電費計價
+
+<br>
+
+- ch05: 迴圈
+  
+  1. while
+  2. continue
+  3. break
+  4. do-while
+  5. 專案研討: 質數
+  6. for
+  7. 專案研討: 99乘法表
+  8. 專案研討: 費氏數列
+  9. 專案研討: 金字塔
 
 # 編譯器
 
 - c
   
   ```
-  gcc your_file.c
+  gcc -std=c11 your_file.c
   ```
 
 - c++
